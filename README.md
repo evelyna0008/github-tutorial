@@ -14,14 +14,19 @@ track the changes made.
 ---
 ## Initial Setup
 ####Creating a Github Account
-* Creating a Github account add snapshots of your code up to the cloud and 
+* Creating a Github account adds snapshots of your code up to the cloud and allows others to look, clone, and modify your code
+* to setup your github account you need to 
 
 
 
 ---
 ## Repository Setup
-
+###Setting up your Repository
+1. to initialize git and make a new repository you must be on the command line and type `git init`
+2. since you sign 
 
 
 ---
 ## Workflow & Commands
+When you are working on any pf your projects you must make sure you are always checking on what is going on in your repository
+* `git status` allows you 
