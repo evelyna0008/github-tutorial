@@ -8,14 +8,20 @@ _by Evelyn Ariza_
 the command line and you can use git to take snapshots of your code. 
 * **Github** is more for collaboration, and you can store your code in the cloud. Github also tracks changes in your code  
 and you are able to collaborate with others in the web, if anyone adds changes or deletes any code you are able to  
-track the changes made.
+track the changes made. *Github cannot work without git*.
 
 
 ---
 ## Initial Setup
 ####Creating a Github Account
-* Creating a Github account adds snapshots of your code up to the cloud and allows others to look, clone, and modify your code
-* to setup your github account you need to 
+* Creating a Github account adds snapshots of your code up to the cloud and allows others to look, clone, and modify your code 
+
+####SSH Key 
+* the _Secure Shell_ or _Secure Socket Shell_ will generate on your github when you create a new repository, The SSH keys allows you  
+to get access to your files on a local machine when you put your files on a remote. 
+
+####`git config`
+*
 
 
 
@@ -28,5 +34,5 @@ track the changes made.
 
 ---
 ## Workflow & Commands
-When you are working on any pf your projects you must make sure you are always checking on what is going on in your repository
+When you are working on any of your projects you must make sure you are always checking on what is going on in your repository
 * `git status` allows you 
