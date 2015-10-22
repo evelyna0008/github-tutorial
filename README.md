@@ -34,7 +34,7 @@ and add it to your github. then to add the key to your remote you put ```ssh -T 
 ## Repository Setup
 ####Setting up your Repository
 1. to initialize git you must be on the command line and type `git init` this allows you to basically start up git in your repository.
-2. practice adding and commiting by making a new repository and adding a file called README.md.
+2. practice adding and committing by making a new repository and adding a file called README.md.
 3. and any text to your README and save the changes to your file.
 4. then add your README to be staged by typing in `add README.md`
 5. use git status to make sure your file is staged.
@@ -56,7 +56,7 @@ On branch master
 nothing to commit, working directory clean```
 * `git add` is used to add your current file to be staged. Once your file has been staged, its ready to be committed.  
   * **Example**  
-``` git add fil.ext``` or ```git .``` (adds directory that you are currently in.)   
+``` git add file.ext``` or ```git .``` (adds directory that you are currently in.)   
 
 * `git commit -m "message"` this command takes a snapshot of your code after it is stage. Adding a short present tense message is helpful because if you forgot  
  what you committed the day before or someone wants to know what you modified in your code, adding a message allows you and others to know what was done.  
