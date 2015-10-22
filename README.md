@@ -28,11 +28,16 @@ to get access to your files on a local machine when you put your files on a remo
 ---
 ## Repository Setup
 ###Setting up your Repository
-1. to initialize git and make a new repository you must be on the command line and type `git init`
+1. to initialize git you must be on the command line and type `git init` this allows you to basically start up git in your repository.
 2. since you sign 
 
 
 ---
 ## Workflow & Commands
-When you are working on any of your projects you must make sure you are always checking on what is going on in your repository
-* `git status` allows you see what is happening 
+When you are working on any of your projects you must make sure you are always checking on what is going on in your repository  
+
+* `git status` allows you see if any of your projects are staged and ready to commit and if it was edited. it is important to use `git status` in order to  
+not make any mistakes when commiting your project 
+* `git add` is used to add your current file to be staged. Once your file has been staged, its ready to be committed.
+* `git commit -m "message"` this command takes a snapshot of your code after it is stage. Adding a short present tense message is helpful because if you forgot  
+ what you committed the day before or someone wants to know what you modified in your code, adding a message allows you and others to know what was done.
