@@ -46,7 +46,7 @@ and add it to your github. then to add the key to your remote you put ```ssh -T 
 
 ---
 ## Workflow & Commands
-When you are working on any of your projects you must make sure you are always checking on what is going on in your repository  
+When you are working on any of your projects you must make sure you are always checking on what is going on in your repository.  
 
 * `git status` allows you see if any of your projects are staged and ready to commit and if it was edited. it is important to use `git status` in order to  
 not make any mistakes when commiting your project  
