@@ -35,4 +35,4 @@ to get access to your files on a local machine when you put your files on a remo
 ---
 ## Workflow & Commands
 When you are working on any of your projects you must make sure you are always checking on what is going on in your repository
-* `git status` allows you 
+* `git status` allows you see what is happening 
