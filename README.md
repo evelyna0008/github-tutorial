@@ -14,7 +14,7 @@ track the changes made. *Github cannot work without git*.
 
 
 ---
-## Initial Setup
+## One-Time Setup
 ####Creating a Github Account
 * Creating a Github account adds snapshots of your code up to the cloud and allows others to look, clone, and modify your code. sign up by entering your  
 email address and a password.
@@ -32,14 +32,17 @@ and add it to your github. then to add the key to your remote you put ```ssh -T 
 
 ---
 ## Repository Setup
-###Setting up your Repository
+####Setting up your Repository
 1. to initialize git you must be on the command line and type `git init` this allows you to basically start up git in your repository.
 2. practice adding and commiting by making a new repository and adding a file called README.md.
 3. and any text to your README and save the changes to your file.
 4. then add your README to be staged by typing in `add README.md`
 5. use git status to make sure your file is staged.
 6. once you know your file is staged, commit it by typing `git commit -m "short present tense message on what you did"`  
-7. 
+7. finally type `git push` and you have done your first add & commit!  
+
+####Remote
+* A remote is connecting the repository that you are currently in to an external repository, in this case, github.
 
 ---
 ## Workflow & Commands
