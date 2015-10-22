@@ -21,7 +21,7 @@ email address and a password.
 
 ####SSH Key 
 * the _Secure Shell_ or _Secure Socket Shell_ will generate on your github when you create a new repository, The SSH keys allows you  
-to get access to your files on a local machine when you put your files on a remote. To add an SSH Key to your Github you musst get the SSH key from your remote machine  
+to get access to your files on a local machine when you put your files on a remote. To add an SSH Key to your Github you must get the SSH key from your remote machine  
 and add it to your github. then to add the key to your remote you put ```ssh -T git@github.com``` to your remote's command line.
 
 ####`git config`
