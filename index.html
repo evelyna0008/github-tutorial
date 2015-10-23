@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub Tutorial by evelyna0008</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/evelyna0008/github-tutorial0008">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub Tutorial</h1>
+            <h2>Basic Learning material for Git &amp; GitHub </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/evelyna0008/github-tutorial0008/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/evelyna0008/github-tutorial0008/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Evelyn Ariza</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<ul>
+<li>
+<strong>Git</strong><br>
+is for version control, which is mostly for personal use, so you are able to organize your code. Git is also used on<br>
+the command line and you can use git to take snapshots of your code. </li>
+<li>
+<strong>Github</strong><br>
+is more for collaboration, and you can store your code in the cloud. Github also tracks changes in your code<br>
+and you are able to collaborate with others in the web, if anyone adds changes or deletes any code you are able to<br>
+track the changes made. <em>Github cannot work without git</em>.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="one-time-setup" class="anchor" href="#one-time-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>One-Time Setup</h2>
+
+<h4>
+<a id="creating-a-github-account" class="anchor" href="#creating-a-github-account" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating a Github Account</h4>
+
+<ul>
+<li>Creating a Github account adds snapshots of your code up to the cloud and allows others to look, clone, and modify your code. sign up by entering your<br>
+email address and a password.</li>
+</ul>
+
+<h4>
+<a id="ssh-key" class="anchor" href="#ssh-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>SSH Key</h4>
+
+<ul>
+<li>the <em>Secure Shell</em> or <em>Secure Socket Shell</em> will generate on your github when you create a new repository, The SSH keys allows you<br>
+to get access to your files on a local machine when you put your files on a remote. To add an SSH Key to your Github you must get the SSH key from your remote machine<br>
+and add it to your github. then to add the key to your remote you put <code>ssh -T git@github.com</code> to your remote's command line.</li>
+</ul>
+
+<h4>
+<a id="git-config" class="anchor" href="#git-config" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>git config</code>
+</h4>
+
+<ul>
+<li>
+<code>git config</code> is important to be setup because it is where git gets your information in order to make a commit. to setup you have to put down:<br>
+<code>git config --global user.name " First Name Last Name"</code><br>
+<code>git config --global user.email "email address"</code>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h4>
+<a id="setting-up-your-repository" class="anchor" href="#setting-up-your-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting up your Repository</h4>
+
+<ol>
+<li>to initialize git you must be on the command line and type <code>git init</code> this allows you to basically start up git in your repository.</li>
+<li>practice adding and committing by making a new repository and adding a file called README.md.</li>
+<li>and any text to your README and save the changes to your file.</li>
+<li>then add your README to be staged by typing in <code>add README.md</code>
+</li>
+<li>use git status to make sure your file is staged.</li>
+<li>once you know your file is staged, commit it by typing <code>git commit -m "short present tense message on what you did"</code><br>
+</li>
+<li>finally type <code>git push</code> and you have done your first add &amp; commit!<br>
+</li>
+</ol>
+
+<h4>
+<a id="remote" class="anchor" href="#remote" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remote</h4>
+
+<ul>
+<li>A remote is connecting the repository that you are currently in to an external repository, in this case, github.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>When you are working on any of your projects you must make sure you are always checking on what is going on in your repository.  </p>
+
+<ul>
+<li>
+<code>git status</code> allows you see if any of your projects are staged and ready to commit and if it was edited. it is important to use <code>git status</code> in order to<br>
+not make any mistakes when commiting your project<br>
+
+<ul>
+<li>
+<strong>Example</strong><br>
+<code>username-repository:~/workspace/github-tutorial (master) $ git status  
+On branch master  
+nothing to commit, working directory clean</code>
+</li>
+</ul>
+</li>
+<li>
+<p><code>git add</code> is used to add your current file to be staged. Once your file has been staged, its ready to be committed.  </p>
+
+<ul>
+<li>
+<strong>Example</strong><br>
+<code>git add file.ext</code> or <code>git .</code> (adds directory that you are currently in.)<br>
+</li>
+</ul>
+</li>
+<li>
+<p><code>git commit -m "message"</code> this command takes a snapshot of your code after it is stage. Adding a short present tense message is helpful because if you forgot<br>
+what you committed the day before or someone wants to know what you modified in your code, adding a message allows you and others to know what was done.  </p>
+
+<ul>
+<li>
+<strong>Example</strong><br>
+<code>git commit -m "add new directory"</code><br>
+</li>
+</ul>
+</li>
+<li>
+<p><code>git push</code> is used after you have staged, and committed your repository. using push means you are pushing your changes to the cloud and your github, where the<br>
+public is able to see your most recent changes.  </p>
+
+<ul>
+<li>
+<strong>Example</strong><br>
+<code>git push</code> the command will let you know once your repository has been pushed.</li>
+</ul>
+</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/evelyna0008">evelyna0008</a> can be found on <a href="https://github.com/evelyna0008/github-tutorial0008">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
